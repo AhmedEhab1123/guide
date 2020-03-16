@@ -59,7 +59,7 @@ On the master branch, the receiving and outgoing embed classes have been unified
 
 ```js
 // at the top of your file
-const Discord = require('discord.js');
+const Discord = require('discord.js'); // so the Discord.RichEmbed works
 
 // inside a command, event listener, etc.
 const exampleEmbed = new Discord.RichEmbed()
